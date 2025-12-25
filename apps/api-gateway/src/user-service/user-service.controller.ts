@@ -1,5 +1,5 @@
 import { Controller, Get } from '@nestjs/common';
-// import { MessagePattern } from '@nestjs/microservices';
+import { MessagePattern } from '@nestjs/microservices';
 import { UserServiceService } from './user-service.service';
 
 @Controller('user-service')
