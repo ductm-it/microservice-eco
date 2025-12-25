@@ -7,4 +7,8 @@ export class UserServiceService {
     getHello() {
         return this.client.send('getHello', {});
     }
+
+    createUser(createUserDto: CreateUserDto) {
+        return this.client.send('createUser', createUserDto);
+    }
 }
